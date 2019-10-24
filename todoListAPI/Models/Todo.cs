@@ -11,6 +11,7 @@ namespace todoListAPI.Models
         public string Task { get; set; }
         public DateTime Date { get; set; }
         public bool Status { get; set; }
+        public string TodoId { get; set; }
     }
 }
 
